@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo 15/7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="cont1" class="box active">
+            <button onclick="toggleVisibility('cont2', 'cont1')"> Mostrar/Ocultar </button>
+            <p> HOLA</p>
+        </div>
+
+        <div id="cont2" class="box">
+            <button onclick="toggleVisibility('cont1', 'cont2')"> Mostrar/Ocultar </button>
+            <p> CHAU</p>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

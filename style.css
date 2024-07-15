@@ -1,0 +1,29 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    box-sizing: border-box;
+    border: 10px solid green;
+    overflow: hidden; 
+}
+
+#cont1,
+#cont2 {
+    flex: 0 1 30%;
+    height:auto;
+    background-color: lightcoral;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    overflow: hidden; 
+}
+
+.box {
+    border: 1px solid black;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.box.active {
+    opacity: 1;
+}
